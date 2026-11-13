@@ -6,6 +6,7 @@ int main(void)
     printf("Enter a number: ");
     scanf("%d", &n);
     printf("%li", binary(n));
+    return 0;
 }
 
 int binary(int n)
